@@ -17,7 +17,7 @@ let list = carousel.querySelector('ul');
 let listElems = carousel.querySelectorAll('li');
 let width = listElems[0].offsetWidth;
 let position = 0; // положение ленты прокрутки
-const count = Math.floor(viewPort / width); // видимое количество изображений
+const count = Math.min(Math.floor(viewPort / width), 3) ; // видимое количество изображений
 width += 20; // добавим gap
 
 carouselCount.textContent = (count + ' / ' + listElems.length)
