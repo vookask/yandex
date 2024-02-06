@@ -1,0 +1,194 @@
+@media (max-width: 375px){
+  
+  .container {
+    padding: 0 19px;
+  }
+  .marquee-content{
+    padding: 10px 12px;
+    font-size: 16px;
+  }
+
+  .hero {
+    height: 774px;
+    background-image: url(./img/hero-bac-375.png);
+    background-size: cover;
+    background-position-y: top;
+  }.hero__logo {
+    width: 213px;
+    margin-top: 19px;
+  }
+  .hero__title {
+    margin-top: 35px;
+    font-size: 36px;
+  }
+  .hero__title {
+    text-align: left;
+  }
+  .hero__text {
+    text-align: left;
+  }
+  .hero__btn-duble {
+    display: block;
+    margin-top: 31px;
+  }
+  .hero__btn {
+    display: block;
+    max-width: none;
+    width: 100%;
+    height: 45px;
+    margin: 0;
+    padding: 0;
+    line-height: 48px;
+  }
+  .hero__btn-two {
+    margin-top: 13px;
+  }
+
+  .lecture {
+    height: auto;
+    margin-top: 20px;
+    padding: 0;
+    background-size: contain;
+    background-position-y: 53%;
+  }
+  .lecture__title {
+    font-size: 28px;
+    line-height: 135%;
+  }
+  .lecture__title-br {
+    display: block;
+  }
+  .lecture__session {
+    max-width: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 457px;
+    background-size: contain;
+    background-position-y: 0;
+    background-position-x: 0;
+  }
+  .lecture__session-img {
+    position: absolute;
+    width: 117%;
+    height: 33%;
+    left: -28px;
+    top: 27px;
+  }
+  .lecture__session_grid{
+    margin-top: 35px;
+    grid-template-columns: none;
+  }
+  .lecture__session_grid div{
+    /* padding: 10px 0; */
+    border-right: none;
+    border-bottom: none;
+  }
+  .lecture__session_grid div:nth-child(2n-1) {
+    padding: 8px 0;
+  }
+  .lecture__session_grid div:nth-child(2n) {
+    padding: 9px 0;
+    border-bottom: 1px solid #d0d0d0;
+  }
+  .lecture__session_grid div:last-child {
+    border-bottom: none;
+  }
+  .lecture__session_text {
+    margin-top: 30px;
+    padding: 0;
+    font-size: 18px;
+  }
+  .stages__title_grid {
+    display: block;
+    margin-top: 120px;
+  }
+  .section-title {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 110%;
+  }
+  .stages__title_desr {
+    display: block;
+    margin-top: 13px;
+    font-size: 18px;
+  }
+  .stages__grid {
+    position: relative;
+    margin-top: 148px;
+    gap: 0;
+    column-gap: 20px;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(5, 100%);
+    grid-template-rows: 1fr auto;
+  }
+  .stages__grid > div {
+    padding: 60px 19px 24px 72px;
+    font-size: 18px;
+  }
+  .stages__grid > div:nth-child(-3n+5) {
+    padding-top: 0;
+  }
+  .stages__grid > div:nth-child(6) {
+    grid-row: span 2;
+  }
+  .stages__grid-c {
+    grid-row: span 2;
+    grid-column: auto;
+  }
+  .stages__img {
+    position: absolute;
+    right: 10px;
+    top: 30%;
+    width: 90%;
+  }
+  .stages__grid-num {
+    top: 20%;
+  }
+  .stages__grid-arrow {
+    display: flex;
+    position: absolute;
+    bottom: -65px;
+    left: 26%;
+    width: 48%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .carousel-btn {
+    width: 36px;
+    height: 36px;
+  }
+  .tourney__carousel_item {
+    width: 335px;
+  }
+  .dot {
+    background-color: #D9D9D9;
+    border-radius: 5px;
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+  }
+  .active {
+    background-color: #313131;
+  }
+  .tourney__title {
+    margin-top: 185px;
+  } 
+  .tourney__carousel {
+    padding-top: 40px;
+    padding-bottom: 100px;
+  }
+  .tourney__carousel img {
+    width: 73%;
+  }
+  .tourney__carousel-arrow {
+    top: auto;
+    bottom: 100px;
+    right: 104px;
+    width: 130px;
+  }
+  .footer__desc{
+    padding-top: 42px;
+    padding-bottom: 20px;
+  }
+
+}
